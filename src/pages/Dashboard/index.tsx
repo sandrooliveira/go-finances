@@ -71,10 +71,10 @@ const Dashboard: React.FC = () => {
       } = response.data;
 
       const formattedTransactions = formatTransaction(rawTransactions);
-      const formattedbalance = formatBalance(rawBalance);
+      const formattedBalance = formatBalance(rawBalance);
 
       setTransactions(formattedTransactions);
-      setBalance(formattedbalance);
+      setBalance(formattedBalance);
     }
 
     loadTransactions();
